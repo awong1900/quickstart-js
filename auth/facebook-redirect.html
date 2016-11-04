@@ -31,7 +31,19 @@ limitations under the License.
   <!-- ***********************************************************************************************************************
        * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
        *********************************************************************************************************************** -->
-
+       
+    <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+    <script>
+     // Initialize Firebase
+     var config = {
+       apiKey: "AIzaSyDk-WFx8pWRwxUGhh84dzSZyO1oSF_zrqo",
+       authDomain: "wioapp-c70a8.firebaseapp.com",
+       databaseURL: "https://wioapp-c70a8.firebaseio.com",
+       storageBucket: "wioapp-c70a8.appspot.com",
+       messagingSenderId: "457726442089"
+     };
+     firebase.initializeApp(config);
+    </script>
   <script type="text/javascript">
 
     /**
